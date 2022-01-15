@@ -1,0 +1,16 @@
+.btn {
+    display: block;
+    padding: 14px 20px;
+    border: none;
+    background-color: var(--color-rx);
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--color-b);
+    text-transform: uppercase;
+    transition: all 0.4s;
+    /* box-shadow: 0 16px 24px var(--color-p-transparent); */
+}
+
+.btn:hover {
+    box-shadow: 0 16px 24px var(--color-p-transparent);
+}

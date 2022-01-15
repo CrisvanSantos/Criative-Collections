@@ -1,2 +1,5 @@
-@import 'colors/color.css';
-@import 'globalStyle/global_style.css'
+@import '__colors/__color.css';
+@import '__globalStyle/__global_style.css';
+@import '__btn/__btn.css';
+@import '__font/__font.css';
+@import '__navbar/__navbar.css';

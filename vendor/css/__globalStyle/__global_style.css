@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-y);
+    overflow: hidden;
+    padding: 0 4rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero > .img > img {
+    width: inherit;
+}
+
+.hero > .img {
+    width: 350px;
+    position: relative;
+    top: 50px;
+}
+
+.hero article {
+    position: relative;
+    top: 35px;
+}
+
+.hero article h1 {
+    font-size: 3rem;
+    font-family: 'Raleway-EstraBold';
+    color: var(--color-rx);
+    text-align: right;
+}
+
+.hero article .btn {
+    margin-top: 15px;
+    float: right;
+}
